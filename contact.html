@@ -1,57 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Exceptional Realty Group - Luxury Homes - Contact</title>
-</head>
-<body>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form>
+      <label for="name">Full Name *</label>
+      <input type="text" id="name" name="name" placeholder="Enter Name" required>
 
-  <h1>Exceptional</h1>
-  <h2>Realty Group</h2>
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" placeholder="Enter Email" required>
 
-  <!-- links -->
-  <nav>
-    <ul>
-      <li><a href="index.html">About</a></li>
-      <li><a href="new-properties.html">New Properties</a></li>
-      <li><a href="real-estate-listings.html">Listings</a></li>
-      <li><a href="market-report.html">Market Report</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="http://hud.gov" target="_blank">H.U.D.</a></li>
-    </ul>
-  </nav>
+      <label for="telephone">Telephone</label>
+      <input type="tel" id="telephone" name="telephone" placeholder="Enter Telephone (optional)">
 
-  <h3>Contact</h3>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Enter Message"></textarea>
 
-  <form>
-    <label for="name">Full Name *</label>
-    <input type="text" id="name" name="name" placeholder="Enter Name" required>
+      <label>
+        <input type="checkbox" name="newsletter" value="yes">
+        Sign up for our newsletter
+      </label>
 
-    <label for="email">Email *</label>
-    <input type="email" id="email" name="email" placeholder="Enter Email" required>
-
-    <label for="telephone">Telephone</label>
-    <input type="tel" id="telephone" name="telephone" placeholder="Enter Telephone (optional)">
-
-    <label for="message">Message</label>
-    <textarea id="message" name="message" placeholder="Enter Message"></textarea>
-
-    <label>
-      <input type="checkbox" name="newsletter" value="yes">
-      Sign up for our newsletter
-    </label>
-
-    <button type="submit">Submit</button>
-  </form>
-
-  <footer>
-    <ul>
-      <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Web Policies</a></li>
-      <li><a href="#">Accessibility</a></li>
-      <li><a href="#">Sitemap</a></li>
-    </ul>
-  </footer>
-
-</body>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
 </html>
