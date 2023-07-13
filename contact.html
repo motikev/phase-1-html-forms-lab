@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,9 +10,48 @@
   <h2>Realty Group</h2>
 
   <!-- links -->
-  <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+  <nav>
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="new-properties.html">New Properties</a></li>
+      <li><a href="real-estate-listings.html">Listings</a></li>
+      <li><a href="market-report.html">Market Report</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="http://hud.gov" target="_blank">H.U.D.</a></li>
+    </ul>
+  </nav>
 
   <h3>Contact</h3>
-  
+
+  <form>
+    <label for="name">Full Name *</label>
+    <input type="text" id="name" name="name" placeholder="Enter Name" required>
+
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" placeholder="Enter Email" required>
+
+    <label for="telephone">Telephone</label>
+    <input type="tel" id="telephone" name="telephone" placeholder="Enter Telephone (optional)">
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Enter Message"></textarea>
+
+    <label>
+      <input type="checkbox" name="newsletter" value="yes">
+      Sign up for our newsletter
+    </label>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <footer>
+    <ul>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Web Policies</a></li>
+      <li><a href="#">Accessibility</a></li>
+      <li><a href="#">Sitemap</a></li>
+    </ul>
+  </footer>
+
 </body>
 </html>
